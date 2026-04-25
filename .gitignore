@@ -1,0 +1,41 @@
+# ── Environment & Secrets (Mapped to exact locations) ───────────────────────
+pakconstitution/.env
+pakconstitution/.env.*
+# Keep the example but ignore the rest
+!pakconstitution/gemini-flux/.env.example
+
+# ── Data & Databases (Mapped to pakconstitution subfolder) ──────────────────
+pakconstitution/data/chroma_db/
+pakconstitution/data/constitution_chunks_2024.json
+pakconstitution/data/constitution_chunks_2025.json
+pakconstitution/raw_data/
+*.pdf
+
+# ── Flutter (Mapped to rag_frontend_and_management) ─────────────────────────
+rag_frontend_and_management/.dart_tool/
+rag_frontend_and_management/build/
+rag_frontend_and_management/.pub/
+rag_frontend_and_management/android/.gradle/
+rag_frontend_and_management/android/local.properties
+rag_frontend_and_management/ios/Pods/
+rag_frontend_and_management/ios/.symlinks/
+rag_frontend_and_management/*.g.dart
+
+# ── IDEs & Logs (Mapped to all project instances) ───────────────────────────
+.idea/
+.vscode/
+pakconstitution/gemini-flux/.idea/
+rag_frontend_and_management/.idea/
+*.log
+cmd.txt
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

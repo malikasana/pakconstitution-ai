@@ -1,0 +1,8 @@
+sentence-transformers
+chromadb
+numpy
+fastapi
+uvicorn
+gemini-flux
+python-dotenv
+requests
