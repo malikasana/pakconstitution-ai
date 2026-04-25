@@ -114,16 +114,7 @@ GEMINI_FLUX_URL=http://gemini_flux:8000
 
 > 💡 More keys = higher rate limits. Get up to 8 free keys across 2 Google accounts for ~10,800 requests/day.
 
-### 3. Add data files
-
-Place these files in the `pakconstitution/data/` folder:
-- `final_chunks_2025.json`
-- `final_chunks_2024.json`
-- `v2_amendment_chunks.json`
-
-> These files are not included in the repo due to size. Contact the maintainers or run the extraction scripts in `raw_data/` to generate them.
-
-### 4. Start the backend
+### 3. Start the backend
 
 ```bash
 cd pakconstitution
@@ -136,7 +127,7 @@ First run takes 10–30 minutes (downloads models and embeds all articles). Subs
 docker-compose start
 ```
 
-### 5. Connect the Flutter app
+### 4. Connect the Flutter app
 
 Open `rag_frontend_and_management/lib/services/api_service.dart` and update the base URL, or enter it in the app's Settings panel at runtime.
 
