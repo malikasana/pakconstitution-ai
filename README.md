@@ -191,7 +191,7 @@ pakconstitution-ai/
 
 | Contributor | Role |
 |-------------|------|
-| **[Malik Asana](https://github.com/malikasana)** | Project lead, system architecture, backend, gemini-flux library |
+| **[M Ali Kasana](https://github.com/malikasana)** | Project lead, system architecture, backend, gemini-flux library |
 | **[Abdul Ahad](https://github.com/abdulahad112)** | Data engineering — scraped, structured and organized the constitutional data including all 27 amendment files and part-by-part constitution text from pakistani.org |
 
 > Special thanks to Abdul Ahad for the raw data pipeline that made V2 data quality possible. The structured `parts/` and `amendments/` folders were his work.
