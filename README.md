@@ -57,7 +57,7 @@ All services run in isolated Docker containers — zero dependency conflicts.
 | Frontend | Flutter | Cross-platform UI |
 | Backend | FastAPI | RAG pipeline & API |
 | LLM | Gemini via gemini-flux | Answer generation |
-| Embeddings | sentence-transformers (all-MiniLM-L6-v2) | Vector encoding |
+| Embeddings | sentence-transformers (all-MiniLM-L6-V2) | Vector encoding |
 | Vector DB | ChromaDB | Semantic search |
 | Deployment | Docker + Docker Compose | Containerization |
 
